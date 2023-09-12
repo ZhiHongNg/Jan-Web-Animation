@@ -1,9 +1,9 @@
 // routes.js
 import { createRouter, createWebHistory } from 'vue-router';
-import BlurText from './views/BlurText.vue';
+import Index from '@/views/Index.vue';
 
 const routes = [
-    { path: '/', component: BlurText },
+    { path: '/', component: Index },
 ];
 
 const router = createRouter({
